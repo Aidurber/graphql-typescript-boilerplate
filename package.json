@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.16.7",
+    "mysql2": "^1.6.4",
+    "ts-node": "^7.0.1",
+    "type-graphql": "^0.15.0",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.9",
+    "typeorm-typedi-extensions": "^0.2.1",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
