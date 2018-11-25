@@ -7,7 +7,7 @@ import {
   Entity,
   UpdateDateColumn
 } from 'typeorm';
-import { Author } from './Author';
+import { User } from './User';
 import { RelationColumn } from '../helpers';
 
 @Entity()
@@ -25,7 +25,7 @@ export class Post {
   @Column()
   public body: string;
 
-  @Field()
+  @Field({ description: 'Date Time the post was created' })
   @CreateDateColumn()
   public createdDate: Date;
 
@@ -33,9 +33,9 @@ export class Post {
   @UpdateDateColumn()
   public updatedDate: Date;
 
-  @Field(type => Author)
-  @ManyToOne(type => Author)
-  author: Author;
+  // @Field(type => User)
+  @ManyToOne(type => User)
+  user: User;
   @RelationColumn()
-  authorId: number;
+  userId: number;
 }
