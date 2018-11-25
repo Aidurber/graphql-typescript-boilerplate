@@ -14,3 +14,10 @@ Perfect for getting up and running quickly.
 This is a barebones boilerplate that I'll be using to test out ideas quickly.
 
 **N.B**: I have nothing against Vespa, Nest, or Prisma (as a backend), I'm especially fond of Prisma but most times it's a little overkill.
+
+
+## Usage
+```bash
+git clone https://github.com/Aidurber/graphql-typescript-boilerplate.git --depth=1 <projectname>
+```
+Rename <projectname> to your projects' name.
