@@ -10,7 +10,7 @@
     "jsonwebtoken": "^8.4.0",
     "mysql2": "^1.6.4",
     "ts-node": "^7.0.1",
-    "type-graphql": "^0.15.0",
+    "type-graphql": "^0.17.6",
     "typedi": "^0.8.0",
     "typeorm": "^0.2.9",
     "typeorm-typedi-extensions": "^0.2.1",
